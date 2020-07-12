@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Muli:wght@300;400;500;600;700;800;900&display=swap');
+
+
+*{
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: rgb(247,248,252);
+    font-family: "Muli", sans-serif;
+}
+
+.white-container{
+    background-color: rgb(255,255,255);
+    padding: 0px;
+    margin: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    -webkit-box-shadow: -8px 3px 63px -15px rgba(25,32,51,0.56);
+    -moz-box-shadow: -8px 3px 63px -15px rgba(25,32,51,0.56);
+    box-shadow: -8px 3px 63px -15px rgba(25,32,51,0.56);
+    position: relative;
+}
+
+.white-container .inner-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    padding: 10px;
+    margin: 50px;
+}
+
+.inner-container h4{
+    text-transform: uppercase;
+    font-size: 0.7rem;
+    line-height: 20px;
+    font-weight: 300;
+    letter-spacing: 0.09rem;
+}
+
+.inner-container p{
+    font-family: inherit;
+    font-weight: 600;
+}
+
+.edit{
+    position: absolute;
+    bottom: -90px;
+    right: 30px;
+}
+
+.bottom-container{
+    background-color: rgb(9,14,30);
+    padding: 0px;
+    margin: 80px;
+    position: relative;
+    color: rgb(65,71,88);
+    -webkit-box-shadow: -8px 3px 63px -15px rgba(25,32,51,0.56);
+    -moz-box-shadow: -8px 3px 63px -15px rgba(25,32,51,0.56);
+    box-shadow: -8px 3px 63px -15px rgba(25,32,51,0.56);
+}
+
+.bottom-container .heading{
+    text-align: center;
+    padding-top: 10px;
+}
+
+.bottom-inner-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.bottom-inner{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-right: 60px;
+    margin-top: 30px;
+}
+
+.bottom-inner-container select{
+    background-color: rgb(234,239,255);
+    padding-top: 0.7rem;
+    padding-right: 2rem;
+    padding-left: 1rem;
+    padding-bottom: 0.7rem;
+    font-family: inherit;
+    font-weight: 500;
+    border-radius: 3px;
+}
+
+.bottom-inner-container select option{
+    padding: 1rem;
+}
+
+.bottom-container .button-bottom{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.button-bottom a{
+    margin: 20px;
+    text-decoration: none;
+}
+
+ .cancel{
+    padding: 1rem 4rem 1rem 4rem;
+    border: 1px solid rgb(65,71,88);;
+    color: rgb(65,71,88);
+    border-radius: 5px;
+}
+
+.save{
+    padding: 1rem 4rem 1rem 4rem;
+    background-color: #23A4A2;
+    border-radius: 5px;
+    color: rgb(234,239,255);
+}
+
+
+.close{
+    position: absolute;
+    bottom: -120px;
+    right: 0;
+}
